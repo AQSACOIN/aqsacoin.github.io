@@ -1,49 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Black Chain</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
 
-<body>
-    <header>
-        <h1>Project Black Chain</h1>
-        <p>A movement for global change</p>
-    </header>
+header h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
 
-    <section id="mission">
-        <h2>Mission</h2>
-        <p>Empowering individuals and communities to take a stand against human rights violations committed by Israel and the US through peaceful resistance and economic pressure.</p>
-        <a href="#join" class="cta-button">Join the Movement</a>
-    </section>
+header h3 {
+    font-size: 1.5em;
+    font-weight: normal;
+}
 
-    <section id="information">
-        <h2>Information</h2>
-        <p>Explore the history and context of the conflict, an interactive map of participating businesses, and educational materials on boycotting and divestment.</p>
-    </section>
+header img {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+}
 
-    <section id="community">
-        <h2>Community</h2>
-        <p>Connect with others, share experiences, and organize local actions. Find activist groups and organizations supporting the boycott.</p>
-    </section>
+main {
+    padding: 20px;
+}
 
-    <section id="cryptocurrency">
-        <h2>Black Chain Cryptocurrency</h2>
-        <p>Learn about the role of the Black Chain cryptocurrency, how to acquire and use it, and a marketplace for purchasing boycotted goods and services using Black Chain tokens.</p>
-    </section>
+section {
+    margin-bottom: 20px;
+}
 
-    <section id="donate">
-        <h2>Donate</h2>
-        <p>Support the project's growth and development through a secure donation platform. Transparent reporting on the use of donations.</p>
-        <a href="#join" class="cta-button">Contribute Now</a>
-    </section>
+section h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 
-    <footer>
-        <p>&copy; 2023 Project Black Chain. All rights reserved.</p>
-    </footer>
-</body>
+section p {
+    font-size: 1em;
+    line-height: 1.5em;
+}
 
-</html>
+section ul {
+    list-style: none;
+    padding: 0
